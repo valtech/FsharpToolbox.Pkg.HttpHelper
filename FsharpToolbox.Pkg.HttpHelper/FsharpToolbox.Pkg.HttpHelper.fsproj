@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>FsharpToolbox.Pkg.HttpHelper</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Errors.fs" />
+    <Compile Include="ResponseMessageFunctions.fs" />
+    <Compile Include="HttpClientExtensions.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FsharpToolbox.Pkg.FpUtils" Version="1.0.0" />
+    <PackageReference Include="FsharpToolbox.Pkg.Logging" Version="1.0.0" />
+    <PackageReference Include="FsharpToolbox.Pkg.Serialization" Version="1.0.0" />
+    <PackageReference Include="NodaTime.Serialization.SystemTextJson" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
